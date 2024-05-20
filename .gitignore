@@ -1,0 +1,45 @@
+# Ignorar archivos de construcción y carpetas
+build/
+*.o
+*.d
+*.bin
+*.elf
+*.map
+
+# Archivos de configuración de CMake
+CMakeLists.txt.user
+
+# Archivos y carpetas de VSCode
+.vscode/
+.vscode/*
+.code-workspace
+
+# Archivos de configuración de herramientas específicas
+*.DS_Store
+*.log
+*.pyc
+__pycache__/
+
+# Archivos de configuración de entorno
+*.env
+.env.*
+
+# Archivos de configuración de la terminal
+.terminal
+
+# Archivos de configuración de IDF y Python
+.sdkconfig*
+*.log
+*.pyc
+*.pyo
+__pycache__/
+
+# Archivos de configuración de Espressif IDF
+.idf/
+.partitions/
+*.project
+*.cproject
+*.settings/
+
+# Ignorar otras carpetas de construcción
+build/
